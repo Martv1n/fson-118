@@ -17,8 +17,29 @@ h1 {
     margin: 0.67em 0;
 }
 
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
 ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 hr {
@@ -34,6 +55,7 @@ pre {
 
 a {
     background-color: transparent;
+    text-decoration: none;
 }
 
 abbr[title] {
@@ -187,6 +209,9 @@ template {
     display: none;
 }
 
+header {
+    padding-top: 22px;
+}
 
 .logo-inner {
     width: 100%;
@@ -208,6 +233,8 @@ template {
     width: 100%;
     max-width: 1110px;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 .header-inner {
@@ -355,7 +382,7 @@ nav {
 }
 
 .product-info {
-    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .product-info ul {
@@ -379,12 +406,21 @@ nav {
 }
 
 .product-title {
+    width: 100%;
+    max-width: 533px;
+}
+
+.product-title h2 {
     font-weight: 700;
     font-size: 32px;
     text-align: center;
     color: #22343d;
     width: 100%;
     max-width: 490px;
+}
+
+.product-button {
+    margin-top: 50px;
 }
 
 .product-button button {
@@ -396,4 +432,813 @@ nav {
     width: 175px;
     height: 53px;
     background: #02897a;
+}
+
+.info {
+    padding-top: 100px;
+}
+
+.info-inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    text-align: center;
+    color: #22343d;
+    align-items: center;
+}
+
+.info-card ul {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.info-card-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.info-card-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-card-title-heading {
+    width: 100%;
+    max-width: 224px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.info-card-title-item1 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 30px;
+}
+
+.info-card-title-item2 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.info-card-title-info {
+    font-weight: 600;
+    font-size: 16px;
+    color: #22343d;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.info-card-title-info-only {
+    font-weight: 700;
+    font-size: 32px;
+    color: #22343d;
+}
+
+.info-card-title-more-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 162%;
+    color: #22343d;
+}
+
+.info-card-title-more {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: #22343d;
+    width: 100%;
+    max-width: 486px;
+}
+
+.info-card-img {
+    width: 100%;
+    max-width: 540px;
+}
+
+.info-card-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 84px;
+}
+
+.info-card-title-heading-card2 {
+    width: 100%;
+    max-width: 304px;
+}
+
+.info-card-title-heading-card2 h3 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #22343d;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.info-card-title-heading-card2 span {
+    font-weight: 700;
+    font-size: 32px;
+    color: #22343d;
+}
+
+.info-card-title-more-card2 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: #22343d;
+    width: 100%;
+    max-width: 437px;
+}
+
+.support-card ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 25px;
+}
+
+.support-card ul li {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    max-width: 450px;
+}
+
+.info-card-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 84px;
+}
+
+.info-card-title-heading-card3 {
+    width: 100%;
+    max-width: 226px;
+}
+
+.info-card-title-heading-card3 h3 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #22343d;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.info-card-title-heading-card3 span {
+    font-weight: 700;
+    font-size: 32px;
+    color: #22343d;
+}
+
+
+.info-card-title-item1 h4 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 162%;
+    color: #22343d;
+}
+
+.info-card-title-item2 h4 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 162%;
+    color: #22343d;
+}
+
+.info-card-title-item1 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: #22343d;
+    width: 100%;
+    max-width: 437px;
+}
+
+.info-card-title-item2 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: #22343d;
+    width: 100%;
+    max-width: 486px;
+}
+
+.expert {
+    padding-top: 150px;
+}
+
+.expert-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.expert-title {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+.expert-title h2 {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: #22343d;
+}
+
+.expert-title p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 162%;
+    text-align: center;
+    color: #22343d;
+    width: 100%;
+    max-width: 542px;
+}
+
+.expert-fitback {
+    padding-top: 40px;
+}
+
+.expert-fitback ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.expert-service1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 91px;
+}
+
+.expert-service2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 91px;
+}
+
+.expert-service2 li {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.expert-service-title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.expert-btn {
+    padding-top: 50px;
+}
+
+.expert-btn button {
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 4px;
+    border: 0;
+    width: 216px;
+    height: 53px;
+    background: #02897a;
+}
+
+.newsfeed {
+    padding-top: 100px;
+}
+
+.newsfeed-inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsfeed-title {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.newsfeed-title h2 {
+    font-weight: 700;
+    font-size: 34px;
+    color: #22343d;
+}
+
+.newsfeed-title p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 162%;
+    color: #22343d;
+    width: 100%;
+    max-width: 465px;
+}
+
+.newsfeed-news {
+    padding-top: 40px;
+}
+
+.newsfeed-news ul {
+    display: flex;
+    gap: 30px;
+}
+
+.newsfeed-card {
+    width: 100%;
+    max-width: 350px;
+    align-items: center;
+    border: 1px solid #dedede;
+    border-radius: 8px;
+    height: 100%;
+    max-height: 359px;
+}
+
+.newsfeed-card p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: #22343d;
+    padding-top: 24px;
+}
+
+.newsfeed-card h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 167%;
+    color: #22343d;
+    width: 100%;
+    max-width: 296px;
+    padding-top: 12px;
+    padding-bottom: 40px;
+}
+
+.newsfeed-card h3:active {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 167%;
+    color: #02897a;
+    width: 100%;
+    max-width: 296px;
+}
+
+.newsfeed-card-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+}
+
+.bold {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 175%;
+    color: #22343d;
+}
+
+.price {
+    padding-top: 171px;
+}
+
+.price-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.price-title h2 {
+    font-weight: 700;
+    font-size: 34px;
+    color: #22343d;
+}
+
+.price-title p {
+    font-weight: 500;
+    font-size: 16px;
+    color: #22343d;
+}
+
+.price-card {
+    padding-top: 40px;
+}
+
+.price-card ul {
+    display: flex;
+    gap: 72px;
+}
+
+.price-card-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price-card-title a h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 167%;
+    color: #22343d;
+}
+
+.price-card-title a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+    background: #fff;
+    border-radius: 8px;
+    width: 322px;
+    height: 456px;
+}
+
+.price-card-price {
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 132%;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #02897a;
+}
+
+.price-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 250%;
+    color: #22343d;
+}
+
+.dollar {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 125%;
+    letter-spacing: 0em;
+    color: #02897a;
+}
+
+.time {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 119%;
+    letter-spacing: 0.01em;
+    color: #afafaf;
+}
+
+.price-card-price-inner .price-card-price p span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price-card-price-inner {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.includes {
+    font-family: var(--third-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 137%;
+    letter-spacing: 0.01em;
+    color: #22343d;
+}
+
+.includes-inner {
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.price-card-price-btn {
+    padding-top: 30px;
+}
+
+.price-card-price-btn button {
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 8px;
+    width: 139px;
+    height: 44px;
+    background: #02897a;
+    border: 0;
+}
+
+.feedback {
+    padding-top: 100px;
+}
+
+.feedback-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feedback-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feedback-title h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 178%;
+    letter-spacing: 0.01em;
+    color: #22343d;
+}
+
+.feedback-title p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #22343d;
+    width: 100%;
+    max-width: 537px;
+}
+
+.feedback-card {
+    padding-top: 40px;
+}
+
+.feedback-card ul {
+    display: flex;
+    gap: 64px;
+}
+
+.feedback-card-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    width: 327px;
+    height: 240px;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+}
+
+.feedback-card-inner p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.01em;
+    color: #737373;
+    width: 100%;
+    max-width: 275px;
+}
+
+
+.feedback-card-autor-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.feedback-card-autor {
+    display: flex;
+    width: 100%;
+    max-width: 145px;
+    gap: 14px;
+}
+
+.feedback-card-autor-title h3 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #02897a;
+}
+
+.feedback-card-autor-title p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.01em;
+    color: #252b42;
+}
+
+.feedback-card-title {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.promo {
+    padding-top: 100px;
+}
+
+.promo-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 32px;
+    width: 968px;
+    height: 345px;
+    background: #02897a;
+}
+
+.promo-title {
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+}
+
+.promo-title h2 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 151%;
+    color: #fff;
+    width: 100%;
+    max-width: 510px;
+}
+
+
+.promo-btn button {
+    border-radius: 8px;
+    border: 0;
+    width: 150px;
+    height: 50px;
+    background: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    color: #02897a;
+}
+
+.promo-img {
+    width: 351px;
+}
+
+.footer {
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.footer-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer-content {
+    display: flex;
+}
+
+.logoandadress {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding-right: 146px;
+}
+
+.address ul {
+    display: flex;
+    gap: 16px;
+}
+
+.quick-links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+    max-width: 131px;
+    padding-right: 129px;
+}
+
+.quick-links h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #22343d;
+}
+
+.quick-links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.quick-links ul li a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 219%;
+    color: #22343d;
+}
+
+.legal-staff {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+    max-width: 131px;
+    padding-right: 83px;
+}
+
+.legal-staff h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #22343d;
+}
+
+.legal-staff ul {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.legal-staff ul li a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 219%;
+    color: #22343d;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #22343d;
+    width: 100%;
+    max-width: 280px;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+    max-width: 325px;
+    margin-top: 30px;
+}
+
+.input-container input {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: #02897a;
+}
+
+.input-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 28px;
+}
+
+#phone-number {
+    width: 100%;
+    padding-left: 40px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.footer-btn button {
+    border-radius: 4px;
+    border: 0;
+    width: 131px;
+    height: 39px;
+    background: #02897a;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    margin-top: 25px;
 }
