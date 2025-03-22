@@ -312,20 +312,19 @@ nav {
 }
 
 .hero-content {
-    flex-direction: column;
-    gap: 18px;
     width: 100%;
     max-width: 465px;
 }
 
-.hero-content h1 {
+.hero-title {
+    margin: 0;
+    margin-bottom: 18px;
     font-weight: 700;
     font-size: 40px;
     line-height: 150%;
-    color: #22343d;
-    margin-bottom: 0px;
     width: 100%;
     max-width: 372px;
+    color: #22343d;
 }
 
 .hero-content p {
@@ -405,6 +404,24 @@ nav {
     color: #22343d;
 }
 
+.product-card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.product-card-content-img {
+    display: flex;
+}
+
+.product-card-content-title {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    width: 100%;
+    max-width: 255px;
+}
+
 .product-title {
     width: 100%;
     max-width: 533px;
@@ -415,7 +432,6 @@ nav {
     font-size: 32px;
     text-align: center;
     color: #22343d;
-    width: 100%;
     max-width: 490px;
 }
 
